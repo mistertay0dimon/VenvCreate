@@ -2,6 +2,7 @@
 Create a virtual environment with one batch file
 # Instructions
 For activating this util, click "venvcreate.bat"
+If your system is old, run "venvcreate_foroldsystems.py", required Python 2.7.18
 # How it work?
 First, the project creates a `.venv` directory, and then creates a `Scripts` folder inside it.
 Next, the script navigates to the `require` directory and copies the files from there into the `.venv/Scripts` folder.
